@@ -1,10 +1,13 @@
 package dsa;
 
-import java.util.Scanner;
+import java.util.Date;
 
 public class Test {
 
 	 public static void main(String[] args) {
+		 
+		 
+		 	String input= new Date().toString();
 		 
 		    int[] numbers = new int[args.length];
 
