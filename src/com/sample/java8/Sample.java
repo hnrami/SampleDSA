@@ -11,34 +11,42 @@ abstract class Sample {
 		// TODO Auto-generated method stub
 		
 		
+		boolean a= false;
+		if(a=true) {
+			System.out.println("if");
+		}else {
+			System.out.println("else");
+		}
 		
-		List<Integer> numbers = Arrays.asList(11, 20, 33, 45, 52);
-		int sum = numbers.stream()
-		                 .filter(n -> n % 4 == 0)
-		                 .map(n -> n * 2)
-		                 .reduce(0, Integer::sum);
-		System.out.println(sum);
-		
-		
-		
-		String str="sdfvsdf68fsdfsf8999fsdf09";
-		   String numberOnly= str.replaceAll("[^0-9]", "");
-		   
-//		   System.out.println(numberOnly);
+//		
+//		
+//		List<Integer> numbers = Arrays.asList(11, 20, 33, 45, 52);
+//		int sum = numbers.stream()
+//		                 .filter(n -> n % 4 == 0)
+//		                 .map(n -> n * 2)
+//		                 .reduce(0, Integer::sum);
+//		System.out.println(sum);
+//		
+//		
+//		
+//		String str="sdfvsdf68fsdfsf8999fsdf09";
+//		   String numberOnly= str.replaceAll("[^0-9]", "");
 //		   
-//		   
-//		 IntStream.of(1,2,3,45,6).max().ifPresent(max -> System.out.println(max));
+////		   System.out.println(numberOnly);
+////		   
+////		   
+////		 IntStream.of(1,2,3,45,6).max().ifPresent(max -> System.out.println(max));
+////		 
+////		 
+////		 IntStream.of(1,2,3,45,6).forEach(x -> System.out.println(x));
+////		 IntStream.of(1,2,3,45,6).filter(x -> x%2==0).forEach(x -> System.out.print(x));
+//
 //		 
+//		 Map<String,String> map = new HashMap<>();
+//		 map.put("hh", "xx");
 //		 
-//		 IntStream.of(1,2,3,45,6).forEach(x -> System.out.println(x));
-//		 IntStream.of(1,2,3,45,6).filter(x -> x%2==0).forEach(x -> System.out.print(x));
-
-		 
-		 Map<String,String> map = new HashMap<>();
-		 map.put("hh", "xx");
-		 
-		 map.entrySet().stream().forEach(X -> System.out.println(X));
-		 map.forEach((X,Y)-> System.out.println("X"+X+"Y"+Y));
+//		 map.entrySet().stream().forEach(X -> System.out.println(X));
+//		 map.forEach((X,Y)-> System.out.println("X"+X+"Y"+Y));
 		   
 	}
 

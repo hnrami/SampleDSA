@@ -15,9 +15,9 @@ public class ResizeArray {
 			temp[i]=intput[i];
 		}
 		intput=temp;
-		intput[4]=7;
-		intput[5]=9;
-		
+//		intput[4]=7;
+//		intput[5]=9;
+//		
 		for(int input:intput) {
 			System.out.print(input);
 		}
